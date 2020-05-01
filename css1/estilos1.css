@@ -1,0 +1,82 @@
+body 
+{
+   background:#fcfcfc;
+   color: rgb(0, 0, 0);
+   text-align: center; 
+   font-family: "Arial";
+   font-size: 16px;
+   margin: 0;
+   padding: 0;
+}
+#cabecera
+{
+   background-color: rgb(255, 251, 240);
+   box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.5);
+   color: rgb(0, 0, 0);
+   font-weight: "bold";
+   margin: 0;
+   padding: 0.5em;
+}
+
+#cabecera #logo
+{
+   vertical-align: middle;
+   width: 8%;
+   height: 8%;
+   border-radius: 10px;
+}
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.presentacion {
+  max-width: 1200px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-gap: 1rem;
+  
+ }
+ 
+ img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+
+ .Uno {
+  grid-column: 1 / 3;
+   grid-row: 1;
+   
+ }
+ 
+  .Cuatro {
+   grid-column: 5;
+   grid-row: 1 / 3;
+ }
+ .Cinco {
+   grid-column: 1;
+   grid-row: 2 / 4;
+ }
+
+ .Siete {
+   grid-column: 3 / 5;
+   grid-row: 2 / 4;
+ }
+
+ .Diez {
+   grid-column: 2;
+   grid-row: 3 / 5;
+ }
+
+ .Doce {
+  grid-column: 4 / 6;
+  grid-row: 4;
+}
